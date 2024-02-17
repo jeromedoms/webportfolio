@@ -1,0 +1,57 @@
+<!-- this is a comment -->
+<!-- !DOCTYPE html tells the browser that the file type is html -->
+<!DOCTYPE html>
+<html lang="en">
+   <!-- head contains the configuration of the website. it cannot be seen -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title tag sets the name of the tab -->
+        <title>Jerome | Web Developer Portfolio</title>
+
+        <!-- linking of external CSS -->
+        <link rel="stylesheet" href="./style.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <!-- Montserrat -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+
+    <!-- contains the elements that can be seen on the web page -->
+    <body>
+        <!-- div creates a wrapper/container -->
+        <!-- class attribute allows us to name our div -->
+        <!-- containter-fluid class from bootstrap maximizes the width of the device/browser -->
+        <div class = "container-fluid">
+            <!-- id is an attribute to name a tag uniquely -->
+            <!-- text-center centers the text horizontally -->
+            <!-- mt-5 adds margin at the top -->
+            <section id = "landing" class="text-center mt-5">
+                <!-- h1 - headings tag, allow us to create or add headings 
+                to our webpage. h1-h6, big-small -->
+                <h1>Full Stack Web Developer</h1>
+                <p>Hi! My name is Jerome and I love building things from scratch.</p>
+                
+                <!-- img tag - allows us to add image.
+                src - source attribute, tells us the route/path 
+                where the image is locateds -->
+                <img src="./images/id.jpg" id="profile" class="img-fluid">
+                <!-- btn will make the anchor tag into button -->
+                <!-- btn-succes sets the button color into success -->
+                <!-- btn-lg sets the size of the button -->
+                <!-- mt-3 adds margin at the top -->
+                <a href="mailto:jerome.ansusdomanico@gmail.com" target=”_blank” class="btn btn-dark btn-lg mt-3">Let's Work Together!</a>
+            
+            </section>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
